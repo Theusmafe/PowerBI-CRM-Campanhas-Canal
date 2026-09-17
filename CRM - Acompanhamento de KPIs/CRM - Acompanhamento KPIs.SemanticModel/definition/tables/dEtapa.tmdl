@@ -1,0 +1,39 @@
+table dEtapa
+	lineageTag: fe581c3b-6c55-45eb-a2d9-d75c6172cab7
+
+	column Etapa
+		lineageTag: 788e42df-f95b-4630-a5a2-aacee512fd87
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Etapa]
+		sortByColumn: Ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ordem
+		formatString: 0
+		lineageTag: 1b23171c-7141-407b-96bf-2080402ac544
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Ordem]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dEtapa = calculated
+		mode: import
+		source =
+				
+				DATATABLE (
+				    "Etapa", STRING,
+				    "Ordem", INTEGER,
+				    {
+				        { "Enviados", 1 },
+				        { "Entregues", 2 },
+				        { "Aberturas", 3 },
+				        { "Cliques", 4 },
+				        { "Conversões", 5 }
+				    }
+				)
+
+	annotation PBI_Id = eb3e29b28f3646b9894d2bb6674f30bb
+

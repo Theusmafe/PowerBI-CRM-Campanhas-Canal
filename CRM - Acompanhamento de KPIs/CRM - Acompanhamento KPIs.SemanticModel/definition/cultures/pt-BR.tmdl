@@ -1,0 +1,4190 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "campanhas_crm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campanhas crm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "campanha crm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "campanhas_crm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.data_envio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "data_envio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data envio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_envio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information envio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact envio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info envio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic envio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document envio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure envio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record envio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "campanhas_crm.id_campanha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "id_campanha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id campanha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_campanha": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification campanha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity campanha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier campanha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential campanha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.nome_campanha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "nome_campanha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome campanha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_campanha": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.canal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "canal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "canal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seaway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "channel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "vessel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "duct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "tube": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "passage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.segmento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "segmento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "segmento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.regiao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "regiao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regiao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Região": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.enviado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "enviados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "enviado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.entregue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "entregues"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "entregue": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.abertura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "aberturas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "abertura": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.clique": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "cliques"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "clique": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "coterie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "clan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fraternity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "circle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "gang": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "elite": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "in-group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.conversoe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "conversoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "conversoe": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.receita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "receita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receita": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "campanhas_crm.custo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "campanhas_crm",
+			          "ConceptualProperty": "custo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d calendario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dCalendario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "d_calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.ano_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "AnoMes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AnoMes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medidas (a)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medida (a)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.receita_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Receita Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receita total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "receita aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "receita overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Receita": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Receita do dia": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.receita_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Receita Mês Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receita mês anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.var_receita_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Var Receita %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "var receita %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "var receita percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "var receita pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.var_receita_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Var Receita Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "var receita texto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.cor_var_receita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Cor Var Receita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor var receita": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.custo_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Custo Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Custo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.custo_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Custo Mês Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo mês anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.var_custo_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Var Custo Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "var custo texto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.total_enviados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Total Enviados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total enviados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate enviado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall enviado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Envios": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.total_entregues": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Total Entregues"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total entregues": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate entregue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall entregue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.total_aberturas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Total Aberturas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total aberturas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate abertura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall abertura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.total_cliques": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Total Cliques"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cliques": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cliques": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate clique": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall clique": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.conversões_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Conversões Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "conversões total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "conversõe aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "conversõe overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Conversões": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.conversões_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Conversões Mês Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "conversões mês anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.var_conversões_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Var Conversões Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "var conversões texto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.cor_var_conversões": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Cor Var Conversões"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor var conversões": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.roi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "ROI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "roi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.ROI_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "ROI Mês Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ROI mês anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.var_ROI_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Var ROI Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "var ROI texto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.cor_var_ROI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Cor Var ROI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor var ROI": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.taxa_de_abertura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Taxa de Abertura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxa de abertura": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Aberturas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.taxa_de_abertura_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Taxa de Abertura Mês Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxa de abertura mês anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.var_abertura_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Var Abertura Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "var abertura texto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.cor_var_abertura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Cor Var Abertura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor var abertura": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.taxa_de_conversão": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Taxa de Conversão"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxa de conversão": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Conversões": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.taxa_de_conversão_mês_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Taxa de Conversão Mês Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxa de conversão mês anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.var_taxa_conversão_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Var Taxa Conversão Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "var taxa conversão texto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.cor_var_taxa_conversão": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Cor Var Taxa Conversão"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor var taxa conversão": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.ctr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "CTR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ctr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.custo_por_conversão": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Custo por Conversão"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo por conversão": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.última_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Última Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "última data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "última information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "última fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "última info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "última statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "última document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "última figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "última record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "medidas_a.texto_atualização": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Texto Atualização"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "texto atualização": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.receita_último_dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Receita Último Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receita último dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Último dia vs. semana anterior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.receita_mesmo_dia_semana_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Receita Mesmo Dia Semana Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receita mesmo dia semana anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.var_último_dia_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Var Último Dia Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "var último dia texto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.cor_var_último_dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Cor Var Último Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor var último dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.média_móvel_7_dias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Média Móvel 7 dias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média móvel 7 dias": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.valor_etapa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Valor Etapa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor etapa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_etapa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dEtapa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d etapa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dEtapa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_etapa.etapa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dEtapa",
+			          "ConceptualProperty": "Etapa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "etapa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_etapa.ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dEtapa",
+			          "ConceptualProperty": "Ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ordem": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.campanhas_ativas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Campanhas Ativas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campanhas ativas": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.lucro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Lucro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lucro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.ticket_médio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Ticket Médio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket médio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.participação_receita_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Participação Receita %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "participação receita %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "participação receita percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "participação receita pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.ROI_geral": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "ROI Geral"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ROI geral": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.seleção_campanha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Seleção Campanha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "seleção campanha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.título_tendência": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Título Tendência"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "título tendência": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.título_funil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "Título Funil"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "título funil": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_a.entity__ROI_geral_FormatString": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas (A)",
+			          "ConceptualProperty": "_ROI Geral FormatString"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_ROI geral FormatString": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "campanhas_crm_has_d_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_d_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_campanhas_crm"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_título_funil": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.título_funil": {
+			          "Target": {
+			            "Entity": "medidas_a.título_funil"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.título_funil"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_título_funil"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_título_tendência": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.título_tendência": {
+			          "Target": {
+			            "Entity": "medidas_a.título_tendência"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.título_tendência"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_título_tendência"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_seleção_campanha": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.seleção_campanha": {
+			          "Target": {
+			            "Entity": "medidas_a.seleção_campanha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.seleção_campanha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_seleção_campanha"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_ROI_geral": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.ROI_geral": {
+			          "Target": {
+			            "Entity": "medidas_a.ROI_geral"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.ROI_geral"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_ROI_geral"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_participação_receita_": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.participação_receita_": {
+			          "Target": {
+			            "Entity": "medidas_a.participação_receita_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.participação_receita_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_participação_receita_"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_ticket_médio": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.ticket_médio": {
+			          "Target": {
+			            "Entity": "medidas_a.ticket_médio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.ticket_médio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_ticket_médio"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_lucro": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.lucro": {
+			          "Target": {
+			            "Entity": "medidas_a.lucro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.lucro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_lucro"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_campanhas_ativas": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.campanhas_ativas": {
+			          "Target": {
+			            "Entity": "medidas_a.campanhas_ativas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.campanhas_ativas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_campanhas_ativas"
+			        }
+			      ]
+			    },
+			    "d_etapa_has_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "dEtapa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_etapa": {
+			          "Target": {
+			            "Entity": "d_etapa"
+			          }
+			        },
+			        "d_etapa.ordem": {
+			          "Target": {
+			            "Entity": "d_etapa.ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_etapa"
+			            },
+			            "Object": {
+			              "Role": "d_etapa.ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_etapas_have_ordems"
+			        }
+			      ]
+			    },
+			    "d_etapa_has_etapa": {
+			      "Binding": {
+			        "ConceptualEntity": "dEtapa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_etapa": {
+			          "Target": {
+			            "Entity": "d_etapa"
+			          }
+			        },
+			        "d_etapa.etapa": {
+			          "Target": {
+			            "Entity": "d_etapa.etapa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_etapa"
+			            },
+			            "Object": {
+			              "Role": "d_etapa.etapa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_etapas_have_etapas"
+			        }
+			      ]
+			    },
+			    "d_etapa_has_medidas_a_valor_etapa": {
+			      "Binding": {
+			        "ConceptualEntity": "dEtapa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_etapa": {
+			          "Target": {
+			            "Entity": "d_etapa"
+			          }
+			        },
+			        "medidas_a.valor_etapa": {
+			          "Target": {
+			            "Entity": "medidas_a.valor_etapa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_etapa"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.valor_etapa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_etapas_have_valor_etapa"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_valor_etapa": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.valor_etapa": {
+			          "Target": {
+			            "Entity": "medidas_a.valor_etapa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.valor_etapa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_valor_etapa"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_média_móvel_7_dias": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.média_móvel_7_dias": {
+			          "Target": {
+			            "Entity": "medidas_a.média_móvel_7_dias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.média_móvel_7_dias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_média_móvel_7_dias"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_cor_var_último_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.cor_var_último_dia": {
+			          "Target": {
+			            "Entity": "medidas_a.cor_var_último_dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.cor_var_último_dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_cor_var_último_dia"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_var_último_dia_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.var_último_dia_texto": {
+			          "Target": {
+			            "Entity": "medidas_a.var_último_dia_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.var_último_dia_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_var_último_dia_texto"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_receita_mesmo_dia_semana_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.receita_mesmo_dia_semana_anterior": {
+			          "Target": {
+			            "Entity": "medidas_a.receita_mesmo_dia_semana_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.receita_mesmo_dia_semana_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_receita_mesmo_dia_semana_anterior"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_receita_último_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.receita_último_dia": {
+			          "Target": {
+			            "Entity": "medidas_a.receita_último_dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.receita_último_dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_receita_último_dia"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_texto_atualização": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.texto_atualização": {
+			          "Target": {
+			            "Entity": "medidas_a.texto_atualização"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.texto_atualização"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_texto_atualização"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_última_data": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.última_data": {
+			          "Target": {
+			            "Entity": "medidas_a.última_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.última_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_última_data"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_custo_por_conversão": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.custo_por_conversão": {
+			          "Target": {
+			            "Entity": "medidas_a.custo_por_conversão"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.custo_por_conversão"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_custo_por_conversão"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_ctr": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.ctr": {
+			          "Target": {
+			            "Entity": "medidas_a.ctr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.ctr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_ctr"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_cor_var_taxa_conversão": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.cor_var_taxa_conversão": {
+			          "Target": {
+			            "Entity": "medidas_a.cor_var_taxa_conversão"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.cor_var_taxa_conversão"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_cor_var_taxa_conversão"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_var_taxa_conversão_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.var_taxa_conversão_texto": {
+			          "Target": {
+			            "Entity": "medidas_a.var_taxa_conversão_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.var_taxa_conversão_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_var_taxa_conversão_texto"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_taxa_de_conversão_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.taxa_de_conversão_mês_anterior": {
+			          "Target": {
+			            "Entity": "medidas_a.taxa_de_conversão_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.taxa_de_conversão_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_taxa_de_conversão_mês_anterior"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_taxa_de_conversão": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.taxa_de_conversão": {
+			          "Target": {
+			            "Entity": "medidas_a.taxa_de_conversão"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.taxa_de_conversão"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_taxa_de_conversão"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_cor_var_abertura": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.cor_var_abertura": {
+			          "Target": {
+			            "Entity": "medidas_a.cor_var_abertura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.cor_var_abertura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_cor_var_abertura"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_var_abertura_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.var_abertura_texto": {
+			          "Target": {
+			            "Entity": "medidas_a.var_abertura_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.var_abertura_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_var_abertura_texto"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_taxa_de_abertura_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.taxa_de_abertura_mês_anterior": {
+			          "Target": {
+			            "Entity": "medidas_a.taxa_de_abertura_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.taxa_de_abertura_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_taxa_de_abertura_mês_anterior"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_taxa_de_abertura": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.taxa_de_abertura": {
+			          "Target": {
+			            "Entity": "medidas_a.taxa_de_abertura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.taxa_de_abertura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_taxa_de_abertura"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_cor_var_ROI": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.cor_var_ROI": {
+			          "Target": {
+			            "Entity": "medidas_a.cor_var_ROI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.cor_var_ROI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_cor_var_ROI"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_var_ROI_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.var_ROI_texto": {
+			          "Target": {
+			            "Entity": "medidas_a.var_ROI_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.var_ROI_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_var_ROI_texto"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_ROI_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.ROI_mês_anterior": {
+			          "Target": {
+			            "Entity": "medidas_a.ROI_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.ROI_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_ROI_mês_anterior"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_roi": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.roi": {
+			          "Target": {
+			            "Entity": "medidas_a.roi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.roi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_roi"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_cor_var_conversões": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.cor_var_conversões": {
+			          "Target": {
+			            "Entity": "medidas_a.cor_var_conversões"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.cor_var_conversões"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_cor_var_conversões"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_var_conversões_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.var_conversões_texto": {
+			          "Target": {
+			            "Entity": "medidas_a.var_conversões_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.var_conversões_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_var_conversões_texto"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_conversões_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.conversões_mês_anterior": {
+			          "Target": {
+			            "Entity": "medidas_a.conversões_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.conversões_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_conversões_mês_anterior"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_conversões_total": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.conversões_total": {
+			          "Target": {
+			            "Entity": "medidas_a.conversões_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.conversões_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_conversões_total"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_total_cliques": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.total_cliques": {
+			          "Target": {
+			            "Entity": "medidas_a.total_cliques"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.total_cliques"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_total_cliques"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_total_aberturas": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.total_aberturas": {
+			          "Target": {
+			            "Entity": "medidas_a.total_aberturas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.total_aberturas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_total_aberturas"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_total_entregues": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.total_entregues": {
+			          "Target": {
+			            "Entity": "medidas_a.total_entregues"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.total_entregues"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_total_entregues"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_total_enviados": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.total_enviados": {
+			          "Target": {
+			            "Entity": "medidas_a.total_enviados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.total_enviados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_total_enviados"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_var_custo_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.var_custo_texto": {
+			          "Target": {
+			            "Entity": "medidas_a.var_custo_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.var_custo_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_var_custo_texto"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_custo_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.custo_mês_anterior": {
+			          "Target": {
+			            "Entity": "medidas_a.custo_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.custo_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_custo_mês_anterior"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_custo_total": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.custo_total": {
+			          "Target": {
+			            "Entity": "medidas_a.custo_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.custo_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_custo_total"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_cor_var_receita": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.cor_var_receita": {
+			          "Target": {
+			            "Entity": "medidas_a.cor_var_receita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.cor_var_receita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_cor_var_receita"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_var_receita_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.var_receita_texto": {
+			          "Target": {
+			            "Entity": "medidas_a.var_receita_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.var_receita_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_var_receita_texto"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_var_receita_": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.var_receita_": {
+			          "Target": {
+			            "Entity": "medidas_a.var_receita_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.var_receita_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_var_receita_"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_receita_mês_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.receita_mês_anterior": {
+			          "Target": {
+			            "Entity": "medidas_a.receita_mês_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.receita_mês_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_receita_mês_anterior"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_medidas_a_receita_total": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "medidas_a.receita_total": {
+			          "Target": {
+			            "Entity": "medidas_a.receita_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.receita_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_receita_total"
+			        }
+			      ]
+			    },
+			    "medidas_a_has_entity__medida": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas (A)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medidas_a": {
+			          "Target": {
+			            "Entity": "medidas_a"
+			          }
+			        },
+			        "medidas_a.entity__medida": {
+			          "Target": {
+			            "Entity": "medidas_a.entity__medida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medidas_a"
+			            },
+			            "Object": {
+			              "Role": "medidas_a.entity__medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_a_have__medidas"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_mê"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_ano_me": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.ano_me": {
+			          "Target": {
+			            "Entity": "d_calendario.ano_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.ano_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_ano_me"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_anos"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.data": {
+			          "Target": {
+			            "Entity": "d_calendario.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_data"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_custo": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.custo": {
+			          "Target": {
+			            "Entity": "campanhas_crm.custo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.custo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_custos"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_receita": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.receita": {
+			          "Target": {
+			            "Entity": "campanhas_crm.receita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.receita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_receitas"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_conversoe": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.conversoe": {
+			          "Target": {
+			            "Entity": "campanhas_crm.conversoe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.conversoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_conversoes"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_clique": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.clique": {
+			          "Target": {
+			            "Entity": "campanhas_crm.clique"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.clique"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_cliques"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_abertura": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.abertura": {
+			          "Target": {
+			            "Entity": "campanhas_crm.abertura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.abertura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_aberturas"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_entregue": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.entregue": {
+			          "Target": {
+			            "Entity": "campanhas_crm.entregue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.entregue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_entregues"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_enviado": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.enviado": {
+			          "Target": {
+			            "Entity": "campanhas_crm.enviado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.enviado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_enviados"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_regiao": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.regiao": {
+			          "Target": {
+			            "Entity": "campanhas_crm.regiao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.regiao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_regiaos"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_segmento": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.segmento": {
+			          "Target": {
+			            "Entity": "campanhas_crm.segmento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.segmento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_segmentos"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_canal": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.canal": {
+			          "Target": {
+			            "Entity": "campanhas_crm.canal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.canal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_canals"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_nome_campanha": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.nome_campanha": {
+			          "Target": {
+			            "Entity": "campanhas_crm.nome_campanha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.nome_campanha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_nome_campanhas"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_id_campanha": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.id_campanha": {
+			          "Target": {
+			            "Entity": "campanhas_crm.id_campanha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.id_campanha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_id_campanhas"
+			        }
+			      ]
+			    },
+			    "campanhas_crm_has_data_envio": {
+			      "Binding": {
+			        "ConceptualEntity": "campanhas_crm"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campanhas_crm": {
+			          "Target": {
+			            "Entity": "campanhas_crm"
+			          }
+			        },
+			        "campanhas_crm.data_envio": {
+			          "Target": {
+			            "Entity": "campanhas_crm.data_envio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campanhas_crm"
+			            },
+			            "Object": {
+			              "Role": "campanhas_crm.data_envio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campanhas_crm_have_data_envios"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

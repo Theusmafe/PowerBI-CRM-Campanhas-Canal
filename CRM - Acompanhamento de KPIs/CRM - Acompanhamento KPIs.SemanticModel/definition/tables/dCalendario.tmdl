@@ -1,0 +1,56 @@
+table dCalendario
+	lineageTag: 0a561e45-9096-48a0-aa70-51d737ceee9e
+	dataCategory: Time
+
+	column Data
+		isKey
+		formatString: General Date
+		lineageTag: 8e58584b-005f-4cab-8c8b-a71c3580384d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Data]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano
+		formatString: 0
+		lineageTag: f988020b-8530-4cc0-8506-804b1d818d29
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Ano]
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoMes
+		formatString: 0
+		lineageTag: d27a604f-df79-4697-aa58-af7016bd0cfc
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [AnoMes]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês
+		lineageTag: 443e5d1f-bc6d-4a9a-bf25-22005d381da7
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mês]
+		sortByColumn: AnoMes
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dCalendario = calculated
+		mode: import
+		source =
+				
+				VAR Base = CALENDAR ( DATE ( 2025, 1, 1 ), DATE ( 2025, 12, 31 ) )
+				RETURN
+				    ADDCOLUMNS (
+				        SELECTCOLUMNS ( Base, "Data", [Date] ),
+				        "Ano", YEAR ( [Data] ),
+				        "AnoMes", YEAR ( [Data] ) * 100 + MONTH ( [Data] ),
+				        "Mês", FORMAT ( [Data], "mmm/yyyy" )
+				    )
+
+	annotation PBI_Id = 4bd0be6faf89434687b3a9f6a5432288
+

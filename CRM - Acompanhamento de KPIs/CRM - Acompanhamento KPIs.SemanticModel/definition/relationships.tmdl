@@ -1,0 +1,4 @@
+relationship a2c20938-f48b-da76-e748-71bca9291c38
+	fromColumn: campanhas_crm.data_envio
+	toColumn: dCalendario.Data
+

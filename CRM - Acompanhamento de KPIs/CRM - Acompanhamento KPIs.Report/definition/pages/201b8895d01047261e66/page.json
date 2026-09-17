@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "201b8895d01047261e66",
+  "displayName": "Por Canal",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "pageBinding": {
+    "name": "284510a6d307a027b922",
+    "type": "Default",
+    "parameters": []
+  }
+}

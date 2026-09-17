@@ -1,0 +1,18 @@
+createOrReplace
+
+	ref table 'Medidas (A)'
+
+		measure 'Receita Total' = SUM ( campanhas_crm[receita] )
+			formatString: \R$ #,0
+
+		measure 'Custo Total' = SUM ( campanhas_crm[custo] )
+			formatString: \R$ #,0
+
+		measure 'Custo Mês Anterior' = CALCULATE ( [Custo Total], DATEADD ( dCalendario[Data], -1, MONTH ) )
+			formatString: \R$ #,0
+
+		measure 'Receita Último Dia' = VAR d = [Última Data] RETURN CALCULATE ( [Receita Total], REMOVEFILTERS ( dCalendario ), dCalendario[Data] = d )
+			formatString: \R$ #,0
+
+		measure 'Receita Mesmo Dia Semana Anterior' = VAR d = [Última Data] RETURN CALCULATE ( [Receita Total], REMOVEFILTERS ( dCalendario ), dCalendario[Data] = d - 7 )
+			formatString: \R$ #,0

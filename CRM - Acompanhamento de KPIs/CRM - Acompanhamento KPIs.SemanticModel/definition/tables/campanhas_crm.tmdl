@@ -1,0 +1,131 @@
+table campanhas_crm
+	lineageTag: c9f3115e-0b9a-4c64-89e8-f57a246ac24d
+
+	column data_envio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 5fa6c91f-b155-4bf2-8b43-2b39bad7e553
+		summarizeBy: none
+		sourceColumn: data_envio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column id_campanha
+		dataType: string
+		lineageTag: 10bab044-caa8-4e9c-a1cf-956e8d28e0e3
+		summarizeBy: none
+		sourceColumn: id_campanha
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_campanha
+		dataType: string
+		lineageTag: 9b177070-b1f5-43b7-8c40-4e66de566406
+		summarizeBy: none
+		sourceColumn: nome_campanha
+
+		annotation SummarizationSetBy = Automatic
+
+	column canal
+		dataType: string
+		lineageTag: e593e5ef-d5c8-4640-87aa-037afabeb0aa
+		summarizeBy: none
+		sourceColumn: canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column segmento
+		dataType: string
+		lineageTag: fd89816b-45c2-4dc0-bb15-7f35342159ee
+		summarizeBy: none
+		sourceColumn: segmento
+
+		annotation SummarizationSetBy = Automatic
+
+	column regiao
+		dataType: string
+		lineageTag: 83b3e18d-4c98-4df4-8486-74a5f6df2221
+		summarizeBy: none
+		sourceColumn: regiao
+
+		annotation SummarizationSetBy = Automatic
+
+	column enviados
+		dataType: int64
+		formatString: 0
+		lineageTag: 483c9f2f-834b-46c0-8ac9-1db8b98dc71d
+		summarizeBy: sum
+		sourceColumn: enviados
+
+		annotation SummarizationSetBy = Automatic
+
+	column entregues
+		dataType: int64
+		formatString: 0
+		lineageTag: 923b4e91-7b55-4cdc-ab04-06fcb7b2cc62
+		summarizeBy: sum
+		sourceColumn: entregues
+
+		annotation SummarizationSetBy = Automatic
+
+	column aberturas
+		dataType: int64
+		formatString: 0
+		lineageTag: 848e6ef8-02c6-4b24-acbf-61eb94a4eba7
+		summarizeBy: sum
+		sourceColumn: aberturas
+
+		annotation SummarizationSetBy = Automatic
+
+	column cliques
+		dataType: int64
+		formatString: 0
+		lineageTag: 6604f009-ee84-4f3d-92c7-979da99dcd78
+		summarizeBy: sum
+		sourceColumn: cliques
+
+		annotation SummarizationSetBy = Automatic
+
+	column conversoes
+		dataType: int64
+		formatString: 0
+		lineageTag: d6c85d85-2dc5-42e1-be56-a686bb38caca
+		summarizeBy: sum
+		sourceColumn: conversoes
+
+		annotation SummarizationSetBy = Automatic
+
+	column receita
+		dataType: double
+		lineageTag: 0a85b295-1610-487a-964a-983cda96a66a
+		summarizeBy: sum
+		sourceColumn: receita
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column custo
+		dataType: double
+		lineageTag: df6afc7f-f6a1-4a95-899d-9640aafa2199
+		summarizeBy: sum
+		sourceColumn: custo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition campanhas_crm = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\Matheus Francisco\Documents\PowerBI\Bases\campanhas_crm.csv"),[Delimiter=";", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"data_envio", type date}, {"id_campanha", type text}, {"nome_campanha", type text}, {"canal", type text}, {"segmento", type text}, {"regiao", type text}, {"enviados", Int64.Type}, {"entregues", Int64.Type}, {"aberturas", Int64.Type}, {"cliques", Int64.Type}, {"conversoes", Int64.Type}, {"receita", type number}, {"custo", type number}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,212 @@
+table 'Medidas (A)'
+	lineageTag: 7e7d8e66-6d35-478a-896c-c6cd80620157
+
+	measure 'Receita Total' = SUM ( campanhas_crm[receita] )
+		formatString: \R$ #,0
+		lineageTag: f08718bf-8d8f-4a35-9a0c-84d3a27e38af
+
+	measure 'Receita Mês Anterior' =
+			
+			CALCULATE ( [Receita Total], DATEADD ( dCalendario[Data], -1, MONTH ) )
+		lineageTag: 44689edc-40d6-4ad7-9396-bdffa44c25ad
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Var Receita %' =
+			
+			DIVIDE ( [Receita Total] - [Receita Mês Anterior], [Receita Mês Anterior] )
+		lineageTag: 974eb97f-86bc-479a-bf35-feba11fe6786
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Var Receita Texto' =
+			
+			VAR v = [Var Receita %]
+			RETURN
+			    IF (
+			        ISBLANK ( v ),
+			        "sem comparação",
+			        IF ( v >= 0, "▲ +", "▼ " ) & FORMAT ( v, "0.0%" )
+			    )
+		lineageTag: b2c4df69-a3b5-4cdf-99ae-51570ddbb3b7
+
+	measure 'Cor Var Receita' =
+			
+			IF ( [Var Receita %] < 0, "#D03B3B", "#006300" )
+		lineageTag: b588ad0e-d0c4-4bca-8afc-33a098dbec71
+
+	measure 'Custo Total' = SUM ( campanhas_crm[custo] )
+		formatString: \R$ #,0
+		lineageTag: ee473428-d09c-4e63-9401-5d651343f89e
+
+	measure 'Custo Mês Anterior' = CALCULATE ( [Custo Total], DATEADD ( dCalendario[Data], -1, MONTH ) )
+		formatString: \R$ #,0
+		lineageTag: 6823c24b-5169-48ba-9c95-5c2c95b579fe
+
+	measure 'Var Custo Texto' = VAR v = DIVIDE ( [Custo Total] - [Custo Mês Anterior], [Custo Mês Anterior] ) RETURN IF ( ISBLANK ( v ), "sem comparação", IF ( v >= 0, "▲ +", "▼ " ) & FORMAT ( v, "0.0%" ) )
+		lineageTag: e00a01dd-a719-48aa-88da-19cfdb7b8f4d
+
+	measure 'Total Enviados' = SUM ( campanhas_crm[enviados] )
+		formatString: #,0
+		lineageTag: 579f3445-e894-4118-8034-af3d2c12ca48
+
+	measure 'Total Entregues' = SUM ( campanhas_crm[entregues] )
+		formatString: #,0
+		lineageTag: e29f7fdb-0f76-4325-8107-0e4f51e59774
+
+	measure 'Total Aberturas' = SUM ( campanhas_crm[aberturas] )
+		formatString: #,0
+		lineageTag: ec7ef379-b5d0-44c4-b8cc-74281f5d151d
+
+	measure 'Total Cliques' = SUM ( campanhas_crm[cliques] )
+		formatString: #,0
+		lineageTag: 3ab6ca28-a876-4159-a800-6e0f41a56a5b
+
+	measure 'Conversões Total' = SUM ( campanhas_crm[conversoes] )
+		formatString: #,0
+		lineageTag: 23bcd042-3c85-4739-873b-88fa0a8ad8bd
+
+	measure 'Conversões Mês Anterior' = CALCULATE ( [Conversões Total], DATEADD ( dCalendario[Data], -1, MONTH ) )
+		formatString: #,0
+		lineageTag: 921109bb-35b7-41e8-b586-4e82e44a7f21
+
+	measure 'Var Conversões Texto' = VAR v = DIVIDE ( [Conversões Total] - [Conversões Mês Anterior], [Conversões Mês Anterior] ) RETURN IF ( ISBLANK ( v ), "sem comparação", IF ( v >= 0, "▲ +", "▼ " ) & FORMAT ( v, "0.0%" ) )
+		lineageTag: 97007699-0e7b-4904-b2f8-b95fba627eed
+
+	measure 'Cor Var Conversões' = IF ( [Conversões Total] < [Conversões Mês Anterior], "#D03B3B", "#006300" )
+		lineageTag: 63f339e8-4aac-4798-8e3b-136454df90c0
+
+	measure ROI = DIVIDE ( [Receita Total] - [Custo Total], [Custo Total] )
+		formatString: 0.0\x
+		lineageTag: 459b8270-e3d1-4d51-8271-b6630224f52d
+
+	measure 'ROI Mês Anterior' = CALCULATE ( [ROI], DATEADD ( dCalendario[Data], -1, MONTH ) )
+		formatString: 0.0\x
+		lineageTag: 10ae7b13-bbfc-4c0b-96e2-255393e59c87
+
+	measure 'Var ROI Texto' = VAR v = [ROI] - [ROI Mês Anterior] RETURN IF ( ISBLANK ( [ROI Mês Anterior] ), "sem comparação", IF ( v >= 0, "▲ +", "▼ " ) & FORMAT ( v, "0.0" ) & "x" )
+		lineageTag: 1c8c1b7f-af07-4975-badf-7880a74fc7cb
+
+	measure 'Cor Var ROI' = IF ( [ROI] < [ROI Mês Anterior], "#D03B3B", "#006300" )
+		lineageTag: 5849c778-1a66-43aa-aa6e-ba671444f10c
+
+	measure 'Taxa de Abertura' = DIVIDE ( [Total Aberturas], [Total Entregues] )
+		formatString: 0.0%
+		lineageTag: 04248469-27b1-492c-873b-b41bbf54dfea
+
+	measure 'Taxa de Abertura Mês Anterior' = CALCULATE ( [Taxa de Abertura], DATEADD ( dCalendario[Data], -1, MONTH ) )
+		formatString: 0.0%
+		lineageTag: 67a6375e-f5ab-4296-a68b-5dc35045a066
+
+	measure 'Var Abertura Texto' = VAR v = [Taxa de Abertura] - [Taxa de Abertura Mês Anterior] RETURN IF ( ISBLANK ( [Taxa de Abertura Mês Anterior] ), "sem comparação", IF ( v >= 0, "▲ +", "▼ " ) & FORMAT ( v * 100, "0.0" ) & " p.p." )
+		lineageTag: 13984934-077e-4e96-af72-20926ab357ae
+
+	measure 'Cor Var Abertura' = IF ( [Taxa de Abertura] < [Taxa de Abertura Mês Anterior], "#D03B3B", "#006300" )
+		lineageTag: 8e900c5e-5394-43f1-a5c3-67bfa531f7b6
+
+	measure 'Taxa de Conversão' = DIVIDE ( [Conversões Total], [Total Cliques] )
+		formatString: 0.0%
+		lineageTag: c144aa41-f9ad-457c-9580-7b9538d87ee1
+
+	measure 'Taxa de Conversão Mês Anterior' = CALCULATE ( [Taxa de Conversão], DATEADD ( dCalendario[Data], -1, MONTH ) )
+		formatString: 0.0%
+		lineageTag: 73d23a4a-34e5-4a77-b597-591891be2060
+
+	measure 'Var Taxa Conversão Texto' = VAR v = [Taxa de Conversão] - [Taxa de Conversão Mês Anterior] RETURN IF ( ISBLANK ( [Taxa de Conversão Mês Anterior] ), "sem comparação", IF ( v >= 0, "▲ +", "▼ " ) & FORMAT ( v * 100, "0.0" ) & " p.p." )
+		lineageTag: dc0d76e7-9b5b-4f13-9f2d-709ced008938
+
+	measure 'Cor Var Taxa Conversão' = IF ( [Taxa de Conversão] < [Taxa de Conversão Mês Anterior], "#D03B3B", "#006300" )
+		lineageTag: 59107544-f544-4a78-bb5f-889af39a279f
+
+	measure CTR = DIVIDE ( [Total Cliques], [Total Entregues] )
+		formatString: 0.00%
+		lineageTag: 6d83ab95-01e6-4c25-b55f-3f2bfe9a5bdb
+
+	measure 'Custo por Conversão' = DIVIDE ( [Custo Total], [Conversões Total] )
+		formatString: \R$ #,0.00
+		lineageTag: 622ac79c-8452-44d5-bb7b-6ae81a87a153
+
+	measure 'Última Data' = CALCULATE ( MAX ( campanhas_crm[data_envio] ), ALL ( campanhas_crm ) )
+		formatString: dd/mm/yyyy
+		lineageTag: dabbae78-fa9a-43fe-a250-778070b5d3a4
+
+	measure 'Texto Atualização' = "Dados até " & FORMAT ( [Última Data], "dd/mm/yyyy" )
+		lineageTag: d51414a1-2f29-4350-a451-c3af1fb84cc5
+
+	measure 'Receita Último Dia' = VAR d = [Última Data] RETURN CALCULATE ( [Receita Total], REMOVEFILTERS ( dCalendario ), dCalendario[Data] = d )
+		formatString: \R$ #,0
+		lineageTag: 4c2e4f5b-b371-4b27-92f3-84e6b49fbbb0
+
+	measure 'Receita Mesmo Dia Semana Anterior' = VAR d = [Última Data] RETURN CALCULATE ( [Receita Total], REMOVEFILTERS ( dCalendario ), dCalendario[Data] = d - 7 )
+		formatString: \R$ #,0
+		lineageTag: 3156a9cf-0c0e-4910-aa16-ba6600f84b73
+
+	measure 'Var Último Dia Texto' = VAR v = DIVIDE ( [Receita Último Dia] - [Receita Mesmo Dia Semana Anterior], [Receita Mesmo Dia Semana Anterior] ) RETURN IF ( ISBLANK ( v ), "sem comparação", IF ( v >= 0, "▲ +", "▼ " ) & FORMAT ( v, "0.0%" ) )
+		lineageTag: 47e32315-a587-4b72-88e1-6d41b5d3aa74
+
+	measure 'Cor Var Último Dia' = IF ( [Receita Último Dia] < [Receita Mesmo Dia Semana Anterior], "#D03B3B", "#006300" )
+		lineageTag: 737876e2-dfdb-493b-a60f-ba3cdc7e0000
+
+	measure 'Média Móvel 7 dias' = DIVIDE ( CALCULATE ( [Receita Total], DATESINPERIOD ( dCalendario[Data], MAX ( dCalendario[Data] ), -7, DAY ) ), 7 )
+		formatString: \R$ #,0
+		lineageTag: 6e6dcf89-9abc-4351-b12e-a307e4b93661
+
+	measure 'Valor Etapa' = SWITCH ( SELECTEDVALUE ( dEtapa[Ordem] ), 1, [Total Enviados], 2, [Total Entregues], 3, [Total Aberturas], 4, [Total Cliques], 5, [Conversões Total] )
+		formatString: #,0
+		lineageTag: 3b4eb2f1-0fda-46ee-86ba-8ca02584bd30
+
+	measure 'Campanhas Ativas' = DISTINCTCOUNT ( campanhas_crm[id_campanha] )
+		formatString: 0
+		lineageTag: f5961dbd-7d5d-4257-bb3f-716a8d7a73f6
+
+	measure Lucro = [Receita Total] - [Custo Total]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 77ee8507-3a66-46cf-bb35-c7018f7728ba
+
+	measure 'Ticket Médio' = DIVIDE ( [Receita Total], [Conversões Total] )
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: e08ba375-119d-4e07-921e-f00f8f051ebf
+
+	measure 'Participação Receita %' = DIVIDE ( [Receita Total], CALCULATE ( [Receita Total], ALLSELECTED ( campanhas_crm[nome_campanha] ) ) )
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 12bbaff9-7ba4-44e8-93ba-56b5144a344c
+
+	measure 'ROI Geral' = CALCULATE ( [ROI], ALLSELECTED ( campanhas_crm[nome_campanha] ) )
+		lineageTag: 7f7195da-ff84-463e-9bfa-e4f241d4d63f
+
+		formatStringDefinition = "0.0\x"
+
+	measure 'Seleção Campanha' =
+			
+			VAR n = DISTINCTCOUNT ( campanhas_crm[nome_campanha] )
+			VAR total = CALCULATE ( DISTINCTCOUNT ( campanhas_crm[nome_campanha] ), REMOVEFILTERS ( campanhas_crm[nome_campanha] ) )
+			RETURN IF ( n = 1, SELECTEDVALUE ( campanhas_crm[nome_campanha] ), IF ( n = total, "todas as campanhas", n & " campanhas" ) )
+		lineageTag: c31fed41-0b65-4ca9-9992-3f851289f893
+
+	measure 'Título Tendência' = "Receita diária · " & [Seleção Campanha]
+		lineageTag: 3532694a-1a91-4ae1-bc98-ae8574276dc2
+
+	measure 'Título Funil' = "Funil de conversão · " & [Seleção Campanha]
+		lineageTag: 58fa6a10-d5fd-42ae-9e97-bfb5a0fe31a3
+
+	column _Medidas
+		dataType: string
+		lineageTag: 466ee369-56f8-4622-9fd9-04e38e145881
+		summarizeBy: none
+		sourceColumn: _Medidas
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Medidas (A)' = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [_Medidas = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"_Medidas", type text}})
+				in
+				    #"Tipo Alterado"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+
